@@ -19,3 +19,11 @@ Openness1= input("Are you curious about the world and its mysteries?")
 Conscientiousness1= input("Do you prefer making plans before starting a task?")
 Agreeableness1= input("Do you often try to avoid conflicts or arguments?")
 Leadership1= input("Do you often find yourself taking charge in group situations?")
+
+Introvert2 = input("Does being in a crowd make you feel drained or energized?")
+Extrovert2 = input("Do you often seek out social activities and events?")
+Openness2 = input("Do you enjoy discovering new music, books, or movies?")
+Conscientiousness2 = input("Are you someone who sticks to a schedule or routine?")
+Agreeableness2 = input("Are you willing to compromise for the sake of harmony?")
+Leadership2 = input("Are you comfortable making decisions for a team or a group?")
+
