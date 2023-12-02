@@ -5,3 +5,11 @@ print("))                      To                         ))")
 print("))                Personality Test                 ((")   
 print("((                                                 ))")
 print("))*************************************************((") 
+
+
+print("Title of program:  Personality Test")
+print()
+print("Answer the following questions according to your own preferences and I will suggest which might be suitable for you based on your personality and your interests.")
+print("**Rang** 1 - 5, where 1 is strongly disagree and 5 is strongly agree.")
+print()
+
