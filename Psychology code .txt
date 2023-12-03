@@ -1,3 +1,27 @@
+# Dictionary to store usernames and passwords
+import getpass
+
+user_credentials = {'umer': '39987', 'irfan': '39877','ali': '40295'}
+
+def authenticate():
+   while True:
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+
+    # Check if username exists and if the password matches
+    if username in user_credentials and user_credentials[username] == password:
+        print("Login successful!")
+        break
+    else:
+        print("Invalid username or password")
+
+# Example usage
+
+authenticate()
+
+
+
+
 print(")**************************************************((")             
 print("((                                                 ))")
 print("))                   Wellcome                      ((")             
@@ -27,3 +51,46 @@ Conscientiousness2 = input("Are you someone who sticks to a schedule or routine?
 Agreeableness2 = input("Are you willing to compromise for the sake of harmony?")
 Leadership2 = input("Are you comfortable making decisions for a team or a group?")
 
+
+
+##def ask_question(question):
+  ##while True:
+    ##  try:
+      ##    response = int(input(question + " (1 - strongly disagree, 5 - strongly agree): "))
+        ##  if 1 <= response <= 5:
+          ##    return response
+          ##else:
+            ##  print("Please enter a number between 1 and 5.")
+      ##except ValueError:
+        ##  print("Please enter a valid number.")
+
+
+
+
+#questions = {
+ # "Coding": "Do you enjoy coding and computing lessons?",
+  #"Basketball": "Do you love to stay active?",
+  ##Orchestra": "Do you love to play musical instruments?",
+  #"Drama": "Do you have fun when acting and performing in front of many people?",
+  #"Art": "Do you enjoy drawing or doing art during your free time?",
+ # "Choir": "Do you enjoy listening to music and singing to the tune?",
+  #"Science Club": "Do you like experimenting and exploring scientific concepts?",
+ # "Football": "Do you enjoy playing football?",
+  #"Chess Club": "Are you interested in strategic and tactical games like chess?",
+ # "Reading Club": "Do you love reading books and discussing them with others?",
+  #"Cooking Club": "Do you enjoy cooking and experimenting with recipes?",
+ # "Debate Club": "Do you like debating and arguing on different topics?",
+  # ... Add more interests and questions similarly
+
+
+
+
+
+Introvert3 = input("Do you usually prefer one-on-one conversations to group discussions?")
+Extrovert3 = input("Is it easy for you to strike up conversations with strangers?")
+Openness3 = input("Are you open to trying new foods or visiting new places?")
+Conscientiousness3 = input("Do you feel satisfied when you complete tasks on time?")
+Agreeableness3 = input("Do you prioritize others' needs over your own?")
+Leadership3 = input("Do others naturally look to you for guidance or advice?")
+
+#}
